@@ -3,35 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- ============================================================
-       SEO — MODIFIER CES BALISES SELON VOS BESOINS
-       ============================================================ -->
   <title>LRZR Production — Photographie, Vidéo & Drone FPV | Axel</title>
-  <meta name="description" content="LRZR Production — Axel, créateur audiovisuel freelance spécialisé en photographie, vidéo cinématographique, FPV drone, clips et courts-métrages. Basé en Île-de-France." />
+  <meta name="description" content="LRZR Production — Axel, créateur audiovisuel freelance spécialisé en photographie, vidéo, FPV drone. Basé en Île-de-France." />
   <meta name="author" content="Axel / LRZR Production" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://lrzrprod.github.io/" />
-  <!-- Mettre à jour le href canonical avec votre vrai domaine GitHub Pages -->
-
-  <!-- Open Graph (partage réseaux sociaux) -->
+  <link rel="canonical" href="https://axellrzr.github.io/" />
   <meta property="og:title" content="LRZR Production — Créateur Audiovisuel Freelance" />
-  <meta property="og:description" content="Photographie, vidéo cinématographique, FPV drone. Basé en Île-de-France, disponible partout." />
+  <meta property="og:description" content="Photographie, vidéo cinématographique, FPV drone. Basé en Île-de-France." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://lrzrprod.github.io/" />
-  <meta property="og:image" content="https://lrzrprod.github.io/assets/images/og-cover.jpg" />
-  <!-- Remplacer og:image par votre vraie image de couverture (1200x630px recommandé) -->
+  <meta property="og:url" content="https://axellrzr.github.io/" />
+  <meta property="og:image" content="https://axellrzr.github.io/assets/images/hero-1.jpg" />
   <meta property="og:locale" content="fr_FR" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LRZR Production — Créateur Audiovisuel Freelance" />
-  <meta name="twitter:description" content="Photographie, vidéo cinématographique, FPV drone." />
-  <meta name="twitter:image" content="https://lrzrprod.github.io/assets/images/og-cover.jpg" />
-
-  <!-- ============================================================
-       JSON-LD SCHEMA — MODIFIER LES DONNÉES DE CONTACT
-       ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -40,7 +22,7 @@
         "@type": "Person",
         "name": "Axel",
         "jobTitle": "Créateur audiovisuel freelance",
-        "url": "https://lrzrprod.github.io/",
+        "url": "https://axellrzr.github.io/",
         "sameAs": [
           "https://www.instagram.com/lrzrprod",
           "https://www.youtube.com/@lrzrprod"
@@ -49,8 +31,8 @@
       {
         "@type": "LocalBusiness",
         "name": "LRZR Production",
-        "description": "Production audiovisuelle freelance — photographie, vidéo, FPV drone, courts-métrages",
-        "url": "https://lrzrprod.github.io/",
+        "description": "Production audiovisuelle freelance — photographie, vidéo, FPV drone",
+        "url": "https://axellrzr.github.io/",
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "Île-de-France",
@@ -65,32 +47,23 @@
     ]
   }
   </script>
-  <!-- Mettre à jour les URLs, email et réseaux sociaux ci-dessus -->
-
-  <!-- Google Fonts — seule dépendance externe autorisée -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ============================================================
-       NAVIGATION
-       ============================================================ -->
+  <!-- NAVIGATION -->
   <header class="site-header" id="top">
     <nav class="nav" aria-label="Navigation principale">
-      <!-- MODIFIER : votre logo texte ou remplacer par <img> -->
-      <a href="#top" class="nav__logo" aria-label="LRZR Production — retour en haut">
-        LRZR<span class="nav__logo-accent">.</span>
-      </a>
+      <a href="#top" class="nav__logo" aria-label="LRZR Production">LRZR<span class="nav__logo-accent">.</span></a>
       <button class="nav__burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav__links" id="nav-links" role="list">
         <li><a href="#about">À propos</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="galerie.html">Portfolio</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#contact" class="nav__cta">Me contacter</a></li>
       </ul>
@@ -100,41 +73,36 @@
   <main>
 
     <!-- ============================================================
-         SECTION 1 — HERO
-         MODIFIER : remplacer le fond par votre image/vidéo
+         HERO — CAROUSEL AUTO-DÉFILANT
+         Les images sont définies dans main.js → HERO_IMAGES
          ============================================================ -->
     <section class="hero" id="hero" aria-label="Introduction">
-
-      <!-- Option A : image de fond (décommenter et renseigner le src dans style.css)
-           Option B : vidéo de fond — décommenter le bloc ci-dessous -->
-      <!--
-      <video class="hero__video" autoplay muted loop playsinline aria-hidden="true">
-        <source src="assets/videos/hero-reel.mp4" type="video/mp4" />
-      </video>
-      -->
-
-      <!-- Overlay grain cinématographique (purement CSS, voir style.css) -->
       <div class="hero__grain" aria-hidden="true"></div>
+
+      <!-- Slides du carousel -->
+      <div class="hero__slides" id="hero-slides" aria-live="off"></div>
+
+      <!-- Overlay dégradé -->
       <div class="hero__overlay" aria-hidden="true"></div>
 
+      <!-- Contenu texte -->
       <div class="hero__content">
-        <!-- MODIFIER : votre headline principale -->
         <p class="hero__eyebrow reveal">Production audiovisuelle freelance</p>
         <h1 class="hero__title reveal">
           Chaque image<br />
           <em>raconte quelque chose.</em>
         </h1>
-        <!-- MODIFIER : votre sous-titre -->
-        <p class="hero__sub reveal">
-          Photographie · Vidéo · Drone FPV · Île-de-France &amp; alentours
-        </p>
+        <p class="hero__sub reveal">Photographie · Vidéo · Drone FPV · Île-de-France &amp; alentours</p>
         <div class="hero__actions reveal">
-          <a href="#portfolio" class="btn btn--primary">Voir mon travail</a>
+          <a href="galerie.html" class="btn btn--primary">Voir mon travail</a>
           <a href="#contact" class="btn btn--ghost">Me contacter</a>
         </div>
       </div>
 
-      <!-- Indicateur scroll -->
+      <!-- Indicateurs carousel -->
+      <div class="hero__dots" id="hero-dots" aria-label="Navigation carousel" role="tablist"></div>
+
+      <!-- Scroll indicator -->
       <div class="hero__scroll" aria-hidden="true">
         <span class="hero__scroll-line"></span>
         <span class="hero__scroll-label">Scroll</span>
@@ -142,32 +110,52 @@
     </section>
 
     <!-- ============================================================
-         SECTION 2 — À PROPOS
-         MODIFIER : bio, photo portrait, compétences
+         APERÇU PORTFOLIO — carousel catégories + bouton voir plus
+         ============================================================ -->
+    <section class="portfolio-preview" id="portfolio" aria-label="Aperçu du portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Portfolio</p>
+          <h2 class="section-title">Mes travaux</h2>
+        </div>
+
+        <!-- Carousel des catégories -->
+        <div class="cat-carousel reveal">
+          <div class="cat-carousel__track" id="cat-track">
+            <!-- Injecté par JS depuis CATEGORIES dans main.js -->
+          </div>
+          <button class="cat-carousel__btn cat-carousel__btn--prev" aria-label="Catégorie précédente">&#8592;</button>
+          <button class="cat-carousel__btn cat-carousel__btn--next" aria-label="Catégorie suivante">&#8594;</button>
+        </div>
+
+        <div class="portfolio-preview__cta reveal">
+          <a href="galerie.html" class="btn btn--primary">Voir toutes les photos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         À PROPOS
+         MODIFIER : votre bio et photo portrait
          ============================================================ -->
     <section class="about" id="about" aria-label="À propos d'Axel">
       <div class="container">
-
         <div class="about__grid">
           <div class="about__image-wrap reveal">
-            <!-- MODIFIER : remplacer le src par votre portrait -->
+            <!-- MODIFIER : remplacer par votre portrait -->
             <img
               src="assets/images/portrait.jpg"
-              alt="Axel, créateur audiovisuel freelance LRZR Production, en situation de tournage"
+              alt="Axel, créateur audiovisuel freelance LRZR Production"
               class="about__image"
-              width="480"
-              height="600"
+              width="480" height="600"
               loading="lazy"
             />
             <div class="about__image-accent" aria-hidden="true"></div>
           </div>
-
           <div class="about__text">
             <p class="section-label reveal">À propos</p>
-            <!-- MODIFIER : votre nom/titre -->
             <h2 class="about__name reveal">Axel<br /><span>LRZR Production</span></h2>
-
-            <!-- MODIFIER : votre bio (2-3 paragraphes max, rester concis) -->
+            <!-- MODIFIER : votre bio -->
             <p class="about__bio reveal">
               Créateur audiovisuel basé en Île-de-France, je travaille à l'intersection de la photographie,
               de la vidéo cinématographique et du pilotage FPV. Cinq ans d'expérience terrain, des portraits
@@ -175,11 +163,8 @@
             </p>
             <p class="about__bio reveal">
               Mon approche : un regard direct, une esthétique précise, et un résultat qui dépasse
-              le brief. Chaque projet est une collaboration — je m'adapte à votre univers tout en
-              apportant mon point de vue.
+              le brief. Chaque projet est une collaboration.
             </p>
-
-            <!-- MODIFIER : vos compétences -->
             <ul class="about__skills reveal" role="list" aria-label="Compétences">
               <li class="skill-tag">Photographie</li>
               <li class="skill-tag">Vidéo cinématographique</li>
@@ -190,69 +175,23 @@
             </ul>
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- ============================================================
-         SECTION 3 — PORTFOLIO
-         MODIFIER : ajouter vos images et vidéos dans les tableaux
-         JS dans main.js (variables PORTFOLIO_IMAGES et PORTFOLIO_VIDEOS)
-         ============================================================ -->
-    <section class="portfolio" id="portfolio" aria-label="Portfolio">
-      <div class="container">
-
-        <div class="section-header reveal">
-          <p class="section-label">Portfolio</p>
-          <h2 class="section-title">Mes travaux</h2>
-        </div>
-
-        <!-- Filtres -->
-        <div class="portfolio__filters reveal" role="tablist" aria-label="Filtrer par catégorie">
-          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Tout</button>
-          <button class="filter-btn" data-filter="photo" role="tab" aria-selected="false">Photo</button>
-          <button class="filter-btn" data-filter="video" role="tab" aria-selected="false">Vidéo</button>
-          <button class="filter-btn" data-filter="drone" role="tab" aria-selected="false">Drone FPV</button>
-        </div>
-
-        <!-- Grille portfolio — remplie dynamiquement par main.js -->
-        <div class="portfolio__grid" id="portfolio-grid" aria-live="polite">
-          <!-- Les items sont injectés par JS depuis les tableaux dans main.js -->
-        </div>
-
-      </div>
-
-      <!-- Lightbox pour les photos -->
-      <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualisation image" hidden>
-        <button class="lightbox__close" aria-label="Fermer">&times;</button>
-        <button class="lightbox__prev" aria-label="Image précédente">&#8592;</button>
-        <button class="lightbox__next" aria-label="Image suivante">&#8594;</button>
-        <div class="lightbox__content">
-          <img class="lightbox__img" src="" alt="" />
-          <p class="lightbox__caption"></p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         SECTION 4 — SERVICES
-         MODIFIER : titres, descriptions et icônes SVG des prestations
+         SERVICES
          ============================================================ -->
     <section class="services" id="services" aria-label="Services proposés">
       <div class="container">
-
         <div class="section-header reveal">
           <p class="section-label">Services</p>
           <h2 class="section-title">Ce que je propose</h2>
         </div>
-
         <div class="services__grid">
 
-          <!-- SERVICE 1 — MODIFIER -->
-          <article class="service-card reveal" aria-label="Service photographie">
+          <article class="service-card reveal">
             <div class="service-card__icon" aria-hidden="true">
-              <!-- Icône SVG appareil photo -->
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="4" y="14" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
                 <circle cx="24" cy="28" r="8" stroke="currentColor" stroke-width="2.5"/>
                 <circle cx="24" cy="28" r="3" fill="currentColor"/>
@@ -261,36 +200,26 @@
               </svg>
             </div>
             <h3 class="service-card__title">Photographie</h3>
-            <p class="service-card__desc">
-              Portrait, événement, reportage, concert, wildlife. Un regard singulier pour capturer
-              l'instant avec précision — que ce soit en studio ou en conditions naturelles.
-            </p>
-            <a href="#contact" class="service-card__link" aria-label="Demander un devis photographie">Devis sur demande →</a>
+            <p class="service-card__desc">Portrait, événement, reportage, concert, wildlife. Un regard singulier pour capturer l'instant avec précision.</p>
+            <a href="#contact" class="service-card__link">Devis sur demande →</a>
           </article>
 
-          <!-- SERVICE 2 — MODIFIER -->
-          <article class="service-card reveal" aria-label="Service vidéo">
+          <article class="service-card reveal">
             <div class="service-card__icon" aria-hidden="true">
-              <!-- Icône SVG caméra vidéo -->
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="2" y="14" width="30" height="20" rx="4" stroke="currentColor" stroke-width="2.5"/>
                 <path d="M32 20l12-6v20l-12-6V20z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
                 <circle cx="12" cy="24" r="3" fill="currentColor"/>
               </svg>
             </div>
             <h3 class="service-card__title">Vidéo &amp; Cinéma</h3>
-            <p class="service-card__desc">
-              Clips musicaux, films institutionnels, courts-métrages, reportages. De la prise de vue
-              au montage final, je gère l'ensemble de la chaîne de production.
-            </p>
-            <a href="#contact" class="service-card__link" aria-label="Demander un devis vidéo">Devis sur demande →</a>
+            <p class="service-card__desc">Clips musicaux, films institutionnels, courts-métrages, reportages. De la prise de vue au montage final.</p>
+            <a href="#contact" class="service-card__link">Devis sur demande →</a>
           </article>
 
-          <!-- SERVICE 3 — MODIFIER -->
-          <article class="service-card reveal" aria-label="Service drone FPV">
+          <article class="service-card reveal">
             <div class="service-card__icon" aria-hidden="true">
-              <!-- Icône SVG drone -->
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2.5"/>
                 <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
                 <circle cx="38" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
@@ -303,18 +232,13 @@
               </svg>
             </div>
             <h3 class="service-card__title">Drone FPV</h3>
-            <p class="service-card__desc">
-              Prises de vue aériennes immersives et dynamiques. Idéal pour les événements sportifs,
-              clips, campagnes de communication ou exploration de lieux inhabituels.
-            </p>
-            <a href="#contact" class="service-card__link" aria-label="Demander un devis drone FPV">Devis sur demande →</a>
+            <p class="service-card__desc">Prises de vue aériennes immersives et dynamiques. Idéal pour les événements, clips, campagnes de communication.</p>
+            <a href="#contact" class="service-card__link">Devis sur demande →</a>
           </article>
 
-          <!-- SERVICE 4 — MODIFIER -->
-          <article class="service-card reveal" aria-label="Service montage et post-production">
+          <article class="service-card reveal">
             <div class="service-card__icon" aria-hidden="true">
-              <!-- Icône SVG timeline montage -->
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="4" y="18" width="40" height="6" rx="2" stroke="currentColor" stroke-width="2.5"/>
                 <rect x="4" y="28" width="40" height="6" rx="2" stroke="currentColor" stroke-width="2.5"/>
                 <rect x="8" y="18" width="10" height="6" rx="1" fill="currentColor" opacity=".4"/>
@@ -323,11 +247,8 @@
               </svg>
             </div>
             <h3 class="service-card__title">Montage &amp; Post-prod</h3>
-            <p class="service-card__desc">
-              Étalonnage colorimétrique, mixage son, motion design léger. Je m'adapte à votre charte
-              visuelle ou construis une identité cohérente pour votre projet.
-            </p>
-            <a href="#contact" class="service-card__link" aria-label="Demander un devis montage">Devis sur demande →</a>
+            <p class="service-card__desc">Étalonnage colorimétrique, mixage son, motion design léger. Je m'adapte à votre charte visuelle.</p>
+            <a href="#contact" class="service-card__link">Devis sur demande →</a>
           </article>
 
         </div>
@@ -335,90 +256,40 @@
     </section>
 
     <!-- ============================================================
-         SECTION 5 — CONTACT
-         MODIFIER :
-         1. Remplacer YOUR_WEB3FORMS_ACCESS_KEY par votre clé API
-            Obtenir une clé gratuite sur https://web3forms.com
-         2. Mettre à jour l'email de destination dans Web3Forms
+         CONTACT
+         Clé Web3Forms déjà configurée
          ============================================================ -->
     <section class="contact" id="contact" aria-label="Formulaire de contact">
       <div class="container">
-
         <div class="section-header reveal">
           <p class="section-label">Contact</p>
           <h2 class="section-title">Travaillons ensemble</h2>
         </div>
-
         <div class="contact__grid">
-
           <div class="contact__info reveal">
-            <!-- MODIFIER : votre email et réseaux -->
-            <p class="contact__text">
-              Un projet en tête ? Une question sur mes tarifs ?
-              Remplissez le formulaire ou écrivez-moi directement.
-            </p>
-            <a href="/cdn-cgi/l/email-protection#0a6965647e6b697e4a667870787a78656e24696567" class="contact__email">
-              <span class="__cf_email__" data-cfemail="3d5e5253495c5e497d514f474f4d4f5259135e5250">[email&#160;protected]</span>
-            </a>
-            <!-- MODIFIER : vos liens réseaux sociaux -->
+            <p class="contact__text">Un projet en tête ? Une question sur mes tarifs ? Remplissez le formulaire ou écrivez-moi directement.</p>
+            <!-- MODIFIER : votre email -->
+            <a href="mailto:contact@lrzrprod.com" class="contact__email">contact@lrzrprod.com</a>
             <div class="contact__socials">
-              <a href="https://www.instagram.com/lrzrprod" target="_blank" rel="noopener noreferrer" aria-label="Instagram LRZR Production">
-                Instagram
-              </a>
-              <a href="https://www.youtube.com/@lrzrprod" target="_blank" rel="noopener noreferrer" aria-label="YouTube LRZR Production">
-                YouTube
-              </a>
+              <!-- MODIFIER : vos URLs -->
+              <a href="https://www.instagram.com/lrzrprod" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.youtube.com/@lrzrprod" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
           </div>
-
-          <form
-            class="contact__form reveal"
-            id="contact-form"
-            action="https://api.web3forms.com/submit"
-            method="POST"
-            novalidate
-          >
-            <!--
-              ============================================================
-              ⚠️  CLÉ API WEB3FORMS — À MODIFIER OBLIGATOIREMENT
-              Créez un compte gratuit sur https://web3forms.com
-              Copiez votre "Access Key" et remplacez la valeur ci-dessous
-              ============================================================
-            -->
+          <form class="contact__form reveal" id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
             <input type="hidden" name="access_key" value="3d88643c-aa0e-4f64-acdc-6c6c7cc85798" />
-
-            <!-- Anti-spam honeypot — ne pas modifier -->
             <input type="checkbox" name="botcheck" style="display:none" />
-
-            <!-- Sujet de l'email reçu — MODIFIER si besoin -->
-            <input type="hidden" name="subject" value="Nouveau message depuis lrzrprod.github.io" />
-            <input type="hidden" name="from_name" value="LRZR Production Website" />
-
+            <input type="hidden" name="subject" value="Nouveau message — LRZR Production" />
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Nom *</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Votre nom"
-                  required
-                  autocomplete="name"
-                />
+                <input type="text" id="name" name="name" placeholder="Votre nom" required autocomplete="name" />
               </div>
               <div class="form-group">
                 <label for="email">Email *</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="votre@email.com"
-                  required
-                  autocomplete="email"
-                />
+                <input type="email" id="email" name="email" placeholder="votre@email.com" required autocomplete="email" />
               </div>
             </div>
-
             <div class="form-group">
               <label for="project-type">Type de projet</label>
               <select id="project-type" name="project_type">
@@ -430,26 +301,15 @@
                 <option value="autre">Autre</option>
               </select>
             </div>
-
             <div class="form-group">
               <label for="message">Message *</label>
-              <textarea
-                id="message"
-                name="message"
-                placeholder="Décrivez votre projet, vos besoins, votre délai..."
-                rows="5"
-                required
-              ></textarea>
+              <textarea id="message" name="message" placeholder="Décrivez votre projet..." rows="5" required></textarea>
             </div>
-
             <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
               <span class="btn-text">Envoyer le message</span>
               <span class="btn-loading" hidden>Envoi en cours…</span>
             </button>
-
-            <!-- Message de confirmation/erreur — affiché par JS -->
             <p class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></p>
-
           </form>
         </div>
       </div>
@@ -457,29 +317,18 @@
 
   </main>
 
-  <!-- ============================================================
-       FOOTER
-       MODIFIER : email, liens réseaux sociaux, année si besoin
-       ============================================================ -->
   <footer class="site-footer" aria-label="Pied de page">
     <div class="container">
       <div class="footer__inner">
-
-        <a href="#top" class="footer__logo" aria-label="LRZR Production — retour en haut">
-          LRZR<span>.</span>
-        </a>
-
+        <a href="#top" class="footer__logo">LRZR<span>.</span></a>
         <nav class="footer__nav" aria-label="Navigation pied de page">
           <a href="#about">À propos</a>
-          <a href="#portfolio">Portfolio</a>
+          <a href="galerie.html">Portfolio</a>
           <a href="#services">Services</a>
           <a href="#contact">Contact</a>
         </nav>
-
         <div class="footer__socials">
-          <!-- MODIFIER : vos URLs réseaux sociaux -->
           <a href="https://www.instagram.com/lrzrprod" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <!-- Icône Instagram SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
               <rect x="2" y="2" width="20" height="20" rx="5"/>
               <circle cx="12" cy="12" r="5"/>
@@ -487,23 +336,25 @@
             </svg>
           </a>
           <a href="https://www.youtube.com/@lrzrprod" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-            <!-- Icône YouTube SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
               <path d="M22.54 6.42A2.78 2.78 0 0 0 20.6 4.47C18.88 4 12 4 12 4s-6.88 0-8.6.47a2.78 2.78 0 0 0-1.95 1.95C1 8.14 1 12 1 12s0 3.86.45 5.58a2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.6-.47a2.78 2.78 0 0 0 1.95-1.95C23 15.86 23 12 23 12s0-3.86-.46-5.58z"/>
               <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/>
             </svg>
           </a>
-          <a href="/cdn-cgi/l/email-protection#14777b7a607577605478666e6664667b703a777b79" aria-label="Email contact">
-            <!-- Icône email SVG -->
+          <a href="mailto:contact@lrzrprod.com" aria-label="Email">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
               <rect x="2" y="4" width="20" height="16" rx="2"/>
               <path d="M2 7l10 7 10-7"/>
             </svg>
           </a>
         </div>
-
       </div>
-
       <div class="footer__bottom">
-        <!-- L'année est mise à jour automatiquement par main.js -->
-        <p>&copy; <span id="footer-year"></span> LRZR Produc
+        <p>&copy; <span id="footer-year"></span> LRZR Production — Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
