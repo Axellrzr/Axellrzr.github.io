@@ -46,10 +46,10 @@ const CATEGORIES = [
     cover:    'assets/images/portrait-1.jpg',
     coverAlt: 'Portrait — LRZR Production',
     photos: [
-      { src: 'assets/images/portrait-1.jpg', alt: 'Portrait en lumière naturelle' },
-      { src: 'assets/images/portrait-2.jpg', alt: 'Portrait studio fond sombre' },
-      { src: 'assets/images/portrait-3.jpg', alt: 'Portrait extérieur environnement urbain' },
-      { src: 'assets/images/portrait-4.jpg', alt: 'Portrait en contre-jour' },
+      { src: 'assets/images/portrait-1.jpg', alt: '' },
+      { src: 'assets/images/portrait-2.jpg', alt: '' },
+      { src: 'assets/images/portrait-3.jpg', alt: '' },
+      { src: 'assets/images/portrait-4.jpg', alt: '' },
     ],
   },
   {
@@ -58,10 +58,10 @@ const CATEGORIES = [
     cover:    'assets/images/wild1.jpg',
     coverAlt: 'Wildlife — LRZR Production',
     photos: [
-      { src: 'assets/images/wild1.jpg', alt: 'Oiseau en vol, longue focale' },
-      { src: 'assets/images/wild2.jpg', alt: 'Mammifère dans son habitat naturel' },
-      { src: 'assets/images/wild3.jpg', alt: 'Insecte en macro, végétation' },
-      { src: 'assets/images/wild4.jpg', alt: 'Scène animalière au lever du soleil' },
+      { src: 'assets/images/wild1.jpg', alt: '' },
+      { src: 'assets/images/wild2.jpg', alt: '' },
+      { src: 'assets/images/wild3.jpg', alt: '' },
+      { src: 'assets/images/wild4.jpg', alt: '' },
     ],
   },
   {
@@ -70,10 +70,10 @@ const CATEGORIES = [
     cover:    'assets/images/street-1.jpg',
     coverAlt: 'Street photography — LRZR Production',
     photos: [
-      { src: 'assets/images/street-1.jpg', alt: 'Scène de rue urbaine, lumière rasante' },
-      { src: 'assets/images/street-2.jpg', alt: 'Silhouette sous la pluie, reflets pavés' },
-      { src: 'assets/images/street-3.jpg', alt: 'Marché, foule et mouvement' },
-      { src: 'assets/images/street-4.jpg', alt: 'Architecture et géométrie urbaine' },
+      { src: 'assets/images/street-1.jpg', alt: '' },
+      { src: 'assets/images/street-2.jpg', alt: '' },
+      { src: 'assets/images/street-3.jpg', alt: ' },
+      { src: 'assets/images/street-4.jpg', alt: '' },
     ],
   },
   {
