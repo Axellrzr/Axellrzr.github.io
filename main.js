@@ -43,7 +43,7 @@ const CATEGORIES = [
   {
     id:       'portrait',
     label:    'Portraits',
-    cover:    'assets/images/portrait-01.jpg',
+    cover:    'assets/images/portrait-1.jpg',
     coverAlt: 'Portrait — LRZR Production',
     photos: [
       { src: 'assets/images/portrait-1.jpg', alt: 'Portrait en lumière naturelle' },
@@ -55,7 +55,7 @@ const CATEGORIES = [
   {
     id:       'wildlife',
     label:    'Wildlife',
-    cover:    'assets/images/wildlife-01.jpg',
+    cover:    'assets/images/wild1.jpg',
     coverAlt: 'Wildlife — LRZR Production',
     photos: [
       { src: 'assets/images/wild1.jpg', alt: 'Oiseau en vol, longue focale' },
@@ -67,7 +67,7 @@ const CATEGORIES = [
   {
     id:       'street',
     label:    'Street',
-    cover:    'assets/images/street-01.jpg',
+    cover:    'assets/images/street-1.jpg',
     coverAlt: 'Street photography — LRZR Production',
     photos: [
       { src: 'assets/images/street-1.jpg', alt: 'Scène de rue urbaine, lumière rasante' },
@@ -79,7 +79,7 @@ const CATEGORIES = [
   {
     id:       'auto',
     label:    'Automobile',
-    cover:    'assets/images/auto-01.jpg',
+    cover:    'assets/images/auto-1.jpg',
     coverAlt: 'Photographie automobile — LRZR Production',
     photos: [
       { src: 'assets/images/auto-1.jpg', alt: '' },
@@ -105,7 +105,7 @@ const CATEGORIES = [
   {
     id:       'produit',
     label:    'Produit',
-    cover:    'assets/images/produit-01.jpg',
+    cover:    'assets/images/produit-1.jpg',
     coverAlt: 'Photographie produit — LRZR Production',
     photos: [
       { src: 'assets/images/produit-1.jpg', alt: 'Produit sur fond épuré, lumière studio' },
