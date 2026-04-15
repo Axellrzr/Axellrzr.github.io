@@ -46,10 +46,10 @@ const CATEGORIES = [
     cover:    'assets/images/portrait-01.jpg',
     coverAlt: 'Portrait — LRZR Production',
     photos: [
-      { src: 'assets/images/portrait-01.jpg', alt: 'Portrait en lumière naturelle' },
-      { src: 'assets/images/portrait-02.jpg', alt: 'Portrait studio fond sombre' },
-      { src: 'assets/images/portrait-03.jpg', alt: 'Portrait extérieur environnement urbain' },
-      { src: 'assets/images/portrait-04.jpg', alt: 'Portrait en contre-jour' },
+      { src: 'assets/images/portrait-1.jpg', alt: 'Portrait en lumière naturelle' },
+      { src: 'assets/images/portrait-2.jpg', alt: 'Portrait studio fond sombre' },
+      { src: 'assets/images/portrait-3.jpg', alt: 'Portrait extérieur environnement urbain' },
+      { src: 'assets/images/portrait-4.jpg', alt: 'Portrait en contre-jour' },
     ],
   },
   {
@@ -58,10 +58,10 @@ const CATEGORIES = [
     cover:    'assets/images/wildlife-01.jpg',
     coverAlt: 'Wildlife — LRZR Production',
     photos: [
-      { src: 'assets/images/wildlife-01.jpg', alt: 'Oiseau en vol, longue focale' },
-      { src: 'assets/images/wildlife-02.jpg', alt: 'Mammifère dans son habitat naturel' },
-      { src: 'assets/images/wildlife-03.jpg', alt: 'Insecte en macro, végétation' },
-      { src: 'assets/images/wildlife-04.jpg', alt: 'Scène animalière au lever du soleil' },
+      { src: 'assets/images/wild1.jpg', alt: 'Oiseau en vol, longue focale' },
+      { src: 'assets/images/wild2.jpg', alt: 'Mammifère dans son habitat naturel' },
+      { src: 'assets/images/wild3.jpg', alt: 'Insecte en macro, végétation' },
+      { src: 'assets/images/wild4.jpg', alt: 'Scène animalière au lever du soleil' },
     ],
   },
   {
@@ -70,10 +70,10 @@ const CATEGORIES = [
     cover:    'assets/images/street-01.jpg',
     coverAlt: 'Street photography — LRZR Production',
     photos: [
-      { src: 'assets/images/street-01.jpg', alt: 'Scène de rue urbaine, lumière rasante' },
-      { src: 'assets/images/street-02.jpg', alt: 'Silhouette sous la pluie, reflets pavés' },
-      { src: 'assets/images/street-03.jpg', alt: 'Marché, foule et mouvement' },
-      { src: 'assets/images/street-04.jpg', alt: 'Architecture et géométrie urbaine' },
+      { src: 'assets/images/street-1.jpg', alt: 'Scène de rue urbaine, lumière rasante' },
+      { src: 'assets/images/street-2.jpg', alt: 'Silhouette sous la pluie, reflets pavés' },
+      { src: 'assets/images/street-3.jpg', alt: 'Marché, foule et mouvement' },
+      { src: 'assets/images/street-4.jpg', alt: 'Architecture et géométrie urbaine' },
     ],
   },
   {
@@ -82,10 +82,10 @@ const CATEGORIES = [
     cover:    'assets/images/auto-01.jpg',
     coverAlt: 'Photographie automobile — LRZR Production',
     photos: [
-      { src: 'assets/images/auto-01.jpg', alt: 'Voiture de sport, angle dynamique' },
-      { src: 'assets/images/auto-02.jpg', alt: 'Détail carrosserie, reflets et lignes' },
-      { src: 'assets/images/auto-03.jpg', alt: 'Véhicule en mouvement, filé' },
-      { src: 'assets/images/auto-04.jpg', alt: 'Intérieur cockpit, ambiance' },
+      { src: 'assets/images/auto-1.jpg', alt: 'Voiture de sport, angle dynamique' },
+      { src: 'assets/images/auto-2.jpg', alt: 'Détail carrosserie, reflets et lignes' },
+      { src: 'assets/images/auto-3.jpg', alt: 'Véhicule en mouvement, filé' },
+      { src: 'assets/images/auto-4.jpg', alt: 'Intérieur cockpit, ambiance' },
     ],
   },
   {
@@ -94,10 +94,10 @@ const CATEGORIES = [
     cover:    'assets/images/produit-01.jpg',
     coverAlt: 'Photographie produit — LRZR Production',
     photos: [
-      { src: 'assets/images/produit-01.jpg', alt: 'Produit sur fond épuré, lumière studio' },
-      { src: 'assets/images/produit-02.jpg', alt: 'Packshot cosmétique, rendu mat' },
-      { src: 'assets/images/produit-03.jpg', alt: 'Bijou en macro, détail et brillance' },
-      { src: 'assets/images/produit-04.jpg', alt: 'Mise en scène lifestyle produit' },
+      { src: 'assets/images/produit-1.jpg', alt: 'Produit sur fond épuré, lumière studio' },
+      { src: 'assets/images/produit-2.jpg', alt: 'Packshot cosmétique, rendu mat' },
+      { src: 'assets/images/produit-3.jpg', alt: 'Bijou en macro, détail et brillance' },
+      { src: 'assets/images/produit-4.jpg', alt: 'Mise en scène lifestyle produit' },
     ],
   },
 ];
